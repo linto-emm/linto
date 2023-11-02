@@ -1,0 +1,457 @@
+
+body, html {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  
+}
+
+div{
+    display: block;
+}
+.container{
+    width:100%;
+    height: 100%;
+    min-width:100vw;
+    min-height: 100vh;
+}
+.header {
+    background-color: #24166c;
+    width: 100vw;
+    height: fit-content;
+    top: 0px;
+    position: fixed;
+    z-index: 10;
+    background: transparent;
+    scroll-behavior:smooth;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: gilroyregular;
+}
+
+
+.logo {
+    position: relative;
+    margin-left: 90px;
+    top: 25px;
+}
+
+.navbar {
+    margin-top: 1px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0; 
+    padding: 0; 
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    font-style: italic; 
+}
+
+li a {
+    color: aliceblue;
+    margin-right: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#home {
+    height: auto;
+    width: 100vw;
+}
+
+.bgimage {
+    position: absolute;
+    width: 100%;
+    background:transparent;
+    top:0px;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.textbox {
+    position: absolute;
+    width: 100%; 
+    float: left;
+    height: 85%;
+    padding-top: 5.4rem;
+    padding-left: 65px;
+}
+
+.text {
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 4.25rem;
+    color: #fff; 
+}
+
+h1 {
+    display: block;
+    font-size: 1em;
+    display: flex;
+}
+
+.text p {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    margin: 0.25rem 0 2.5rem;
+    font-family: "gilroymedium";
+}
+
+.bstyle {
+    width: 12.75rem;
+    height: 3.5rem;
+    border-radius: 35px;
+    border: 1px solid transparent;
+    background: linear-gradient(160deg, rgb(245, 82, 64), rgb(238, 54, 142)) rgb(238, 54, 142);
+    color: #fff; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "gilroybold";
+}
+.bottext{
+    font-size: large;
+    color: aqua;
+    float: left;
+}
+
+.btext{
+    position: relative;
+    margin-top: 170px;
+    margin-left: 32px;
+    color: white;
+    padding: 10px;
+}
+
+/*************** second page************* */
+
+.secondhead {
+    position: absolute;
+    background-color: rgb(13, 10, 27);
+    width: 100%;
+    height: 100vh;
+    float: left;
+}
+.secondhead {
+    margin-top: 10px;
+    padding-left: 135px;
+}
+.secondhead h1{
+    margin-top: 110px;
+    margin-left: 2px;
+   font-size: 32px;
+   color: gray;;
+}
+.aboutblock{
+    flex-direction: column;
+    display: flex;
+ 
+}
+  .aboutdetails{
+    max-width: 40px;
+    height: 200px;
+
+  }
+  .aboutdetails  h1{
+    width:470px;
+    margin-top: 287px;
+    margin-left: 130px;
+    position: absolute;
+  color: rgb(255, 255, 255);
+    font-size: 42px;
+    
+  }
+  .aboutdetails p{
+    margin-top: 410px;
+    margin-left: 130px;
+    position: relative;
+    width: 537px;
+    color: rgb(106, 106, 116);
+    font-size: 24px;
+    font-family: gilroymedium; 
+}
+
+.pattern{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 850px;
+    width:137px;
+}
+.patterntext{
+    margin-top: -104px;
+    margin-left: 918px;
+}
+.patterntext h1{
+    position: relative;
+    font-size: 75px;
+  color: rgb(96, 170, 174);
+
+}
+   /*/////////////third page// /// / /// //  */
+
+.thirdpage{
+   margin-top: 0px;
+   background-color: rgb(13, 10, 27);
+   width: 100vw;
+   height: 100vh;
+}
+.thirdhead h1{
+    color: #ddd0d0;
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 175px;
+    font-size: 25px;
+}
+
+.table ul{
+    text-decoration: none;
+    position: absolute;
+    flex-direction: column;
+    text-decoration: none;
+    color: #fffc;  
+    margin-top: 300px;
+    margin-left: 200px;
+    font-size: 60px; 
+}
+
+
+/* fourth page */
+.fourthpage{
+    width:100vw;
+    height: 100vh;
+    background-color: #24166c;
+}
+.fourthhead{
+    font-size: 35px;
+    color: #ddd0d0;
+}
+.fcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #7d7b7b;  
+}
+.first-box{
+    width: 50px;
+    height: 200px;
+    background-color: #7d7b7b;
+}
+.logo5{
+    width: 80px;
+    height: 100px;
+}
+.first-box:hover .head{
+    display: none;
+}
+.first-box:hover .logo5{
+    display: none;
+}
+.first-box:hover .description{
+    display: none;
+}
+.first-box:hover .descrioption2{
+    display: inline;
+}
+
+/* --------------fifth ---------- */
+.fifthpage{
+    background-color: rgb(13, 10, 27);
+    width: 100vw;
+    height: 100vh;
+   
+}
+.fifthhead{
+    font-size: 30px;
+    left:155px;
+    color: #e9dddd;
+    position: relative;
+    top: 110px;
+}
+.flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+   margin-left: 200px;
+   width: 900px;
+   border-left: #dfa0a0;
+    margin-top: 300px; 
+    
+}
+.photo1{
+    width: 300px;
+    border-right:1px solid #ddd0d0;
+    border-bottom:1px solid #ddd0d0;
+    background-color: rgb(13, 10, 27);
+}
+ 
+.photo11 img{
+    width: 150px;
+    height: 62px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.photo2{
+    width: 300px;
+    border-right:1px solid #ddd0d0;
+    border-bottom:1px solid #ddd0d0;
+    background-color: rgb(13, 10, 27);
+}
+ 
+.photo22 img{
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.photo3{
+    width: 300px;
+    
+    border-bottom:1px solid #ddd0d0;
+    background-color: rgb(13, 10, 27);
+}
+ 
+.photo33 img{
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.photo4{
+    width: 300px;
+    background-color: rgb(13, 10, 27);
+    
+    border-right:1px solid #ddd0d0;
+}
+ 
+.photo44 img{
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.photo5{
+    width: 300px;
+    border-right:1px solid #ddd0d0;
+    background-color: rgb(13, 10, 27);
+}
+ 
+.photo55 img{
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.photo6{
+    width: 300px;
+   
+    background-color: rgb(13, 10, 27);
+}
+ 
+.photo66 img{
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+/* --------------sixth----------- */
+.sixthpage{
+    width: 100vw;
+    position: relative;
+    background-color: rgb(13, 10, 27);
+    padding-right: 10px;
+}
+.location{
+position: absolute;
+width: 100vw;
+height:100vh;
+left: 0px;
+}
+.sixthheader{
+    position: relative;
+    top: 100px;
+    left: 150px;
+    font-size: 30px;
+    color: #7d7b7b;
+}
+.formstyle{
+    position: relative;
+    left: 150px;
+    width: 200px;
+    top:140px;
+    margin-bottom: 3rem;
+ 
+}
+.formstyle label{
+    font-size: 25px;
+    width: 200%;
+    height: 50px;
+   display: block;
+
+}
+.formstyle input{
+    width: 200%;
+    padding: 8px 0px 16px;
+    border-image: initial;
+    border-bottom:1px solid rgb(106, 106, 119);
+    background: none;
+    font-size: 25px;
+    border-left: none;
+    border-top: none;
+    border-right: none;outline: none;
+    height:30px;   
+}
+
+.contactbutton{
+    width: 10.2rem;
+    height: 3.2rem;
+    border-radius: 35px;
+    top: 140px;
+    left: 140px;
+    background: linear-gradient(160deg, rgb(15, 14, 14), rgb(46, 41, 43)) rgb(47, 39, 43);
+    color: #eeeae8; 
+    border-color: orangered;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-family: "gilroybold";
+}
+
+/* -----------company details---------- */
+.companydata{
+    width: 100vw;
+    height: 90vh;
+    background-color: rgb(13, 10, 27);
+}
+.logo2{
+    position: relative;
+    width: 70px;
+    top: 270px;
+    left: 150px;
+}
+.details{
+    position: relative;
+    top: 270px;  
+   
+    left: 150px;
+    max-width: 16.875rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 1.5rem 0px;
+    opacity: 0.6;
+}
+
